@@ -1,0 +1,37 @@
+.shaft{
+    /* background-color: #f4d58d; */
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    position: absolute;
+}
+  
+.dowel{
+    display: flex;
+    justify-content: center;
+}
+  
+.bottom{
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.disk{
+    border-radius: 10px;
+    position: absolute;
+}
+
+#river{
+    font-size: 2vh;
+    width: clamp(45ch, 50%, 75ch);
+    height: 20vw;
+}
+
+.half{
+    background-color: white;
+}
+
+.game{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

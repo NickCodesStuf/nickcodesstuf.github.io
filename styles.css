@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gentium+Book+Plus:wght@700&family=Roboto&family=Roboto+Condensed&family=Work+Sans:wght@300;400;500&display=swap');
+
+p{
+    color: white;
+    font-size: 2vh;
+    width: clamp(45ch, 50%, 75ch);
+}
+
+.center{
+    text-align: center;
+}
+
+h1 {
+    font-size: 3vh;
+}
+
+section {
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+    align-content: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+body{
+    font-family: 'Roboto Condensed';
+    background-color: #001524;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color: white;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+}

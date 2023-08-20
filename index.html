@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Induction Example</title>
+    <script defer src="fx.js"></script>
+    <script defer src="spindles.js"></script>
+    <script defer src="crossy.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="renderer.css">
+</head>
+<body>
+    <section class="hidden">
+        <h1>Proof by induction demonstration</h1>
+        <p>recently I noticed that alot of my peers from school where having trouble wrapping their head around proof by induction. When it is presented it is usually presented in a way that involves alot of algebra and alot of pain, but it does not necissarily need to be this way! My goal is to demonstrate the induction principle in a visual way using the power of javascript! </p>
+        <p class="center">scroll down to continue</p>
+    </section>
+
+    <section class="hidden">
+        <h1>What is induction anyway</h1>
+        <p>Induction is a way of building a set using an infinite chain of implications. If this sounds like alot, do not worry, because in all honesty it kind of is, but a good way of looking at it is like a game of 
+            Logical Cross the river. Once you know your innitial position, and how to get one step, you have enough to extrapolate to infinity!
+        </p>
+        <div id="river"></div>
+        <p class="center">(try clicking on the lilly pads)</p>
+    </section>
+
+    <section class="hidden">
+        <h1>Interactive Challange</h1>
+        <p>The goal is simple. You are to move all the disk off of the leftmost spindle to the rightmost spindle by moving 1 disk at a time. Try manipulating the disks with your mouse or finger by clicking on them. Observe if there are any other rules which I may have omitted. I recommend trying this yourself for a minimum of 10 minutes to get a good feel of the system and moves before moving on, not only to know all of the rules, but also to realize their implications.</p>
+        <div id="challenge" class="game"></div>
+    </section>
+
+    <section class="hidden">
+        <h1>Simplifying things</h1>
+        <p>To start we are going to try to simplify the problem as much as we can. Thus let us start with the simplest arrangement possible, two spindles and one disk. Transfer the stack on the left to the right.</p>
+        <div id="simpleton" class="game"></div>
+    </section>
+
+    <section class="hidden">
+        <p>Now we will add one more disk to the stack. Now see if you can transfer the stack from the left to the right.</p>
+        <div id="impossible" class="game"></div>
+    </section>
+
+    <section class="hidden">
+        <p>As you may have noticed, the previous task is impossible. Once you move the top disk off of the stack, there is simply no valid way to progress. Essentially once you reach this state Pk there is no iteration Pk+1 possible. </p>
+        <p>Lets try again with 3 spindles. Try to move the stack to the center spindle. And If you manage to do that, move the stack to the leftmost spindle.</p>
+        <div id="simpleOne" class="game"></div>
+    </section>
+
+    <section class="hidden">
+        <p>Once again we will add another disk to the stack. Can you get them all to the right side? Can you get the entire stack to any peg?</p>
+        <div id="simpleTwo" class="game"></div>
+    </section>
+
+    <section class="hidden">
+        <p>Now I will add a disk one last time. Is there a common method between this problem and the last? Remember a method does not have to be necessarily a sequence of moves as sometimes you may wish to repeat a certain sequence as just another step.</p>
+        <div id="simpleThree" class="game"></div>
+        <p>If you cannot find a common method, go back to the previous problems and try again</p>
+    </section>
+
+    <section class="hidden">
+        <h1>Solution</h1>
+        <p>If you are here you may have stumbled across the inductive process, (or just given up and want to know the solution, which is also fine because at least you are now understand the problem far better then at the beginning). But with that said here is the solution:</p>
+        <p>Let us call every solution for this problem Pk where k is the number of disks. So this means that the sequence of move(s) we used for the scenario with 1 disk is P1, for 2 disks it was P2, and for 3 disks it was P3. The key insight was that we could use the previous proof to solve the current one.</p>
+    </section>
+
+    <section class="hidden">
+        <h1>The P1 Example</h1>
+        <p>Let us revisit the P1. As you may have probably found the way to solve this problem was simply to move the disk to the appropriate dowel. So in the case of the starting premise, we simply move the disk to the rightmost spindle.</p>
+        <p id="annotationOne" class="center">click any spindle to cycle moves</p>
+        <div id="solutionOne" class="game"></div>
+    </section>
+
+    <section class="hidden">
+        <h1>Pk+1 Example</h1>
+        <p>Now what about P2. The way to solve this problem is to move the small disk to the center dowel so you could place the larger one on the rightmost dowel. Following this you could place the small disk on top of the larger one, completing the challenge.</p>
+        <p id="annotationTwo" class="center">click any spindle to cycle moves</p>
+        <div id="solutionTwo" class="game"></div>
+        <p>This is where the pattern comes in. The pattern that can be used to solve this pattern (and hence all future patterns) is to transfer the stack using the previous proof (P1) to the extra free dowel (which we will call P1' variation), so that you could move the bottom disk to the appropriate dowel and repeat the previous sequence once more.</p>
+    </section>
+
+    <section class="hidden">
+        <h1>Pk+1 Example 2</h1>
+        <p>This is where P3 came in. To solve P3, do P2 to the free (center) dowel. So that would mean to move the smallest disk to the rightmost spindle (P1), so that you can move the medium sized disk to the center spindle and then stack the aforementioned smallest disk on top of it (P2), move the bottom disk to the right and then repeat P2 to move the stack back on top.</p>
+        <p id="annotationThree" class="center">click any spindle to cycle moves</p>
+        <div id="solutionThree" class="game"></div>
+    </section>
+
+    <section class="hidden">
+        <p class="center">Now that you know this, try 4 disks.</p>
+        <div id="simpleFour" class="game"></div>
+    </section>
+
+    <section class="hidden">
+        <h1>Conclusion</h1>
+        <p>We have done 2 things here. Not only have we found a method of solving a spindle problem for any number of disks, but also, we have proved that any finite stack of disks can be moved to any dowel via induction. In math speak we have done the following 4 steps</p>
+        <p>1. Proved that P1 is true (the single disk problem)</p>
+        <p>2. Assuming Pk is possible (You at least tried to solve all 3 spindle problems I gave you, right?)</p>
+        <p>3. Found a method where Pk => Pk+1 (The final solution)</p>
+        <p>4. Identified induction (what we have just done)</p>
+        <p>Induction is used all over the place, because it can be used not only to prove things but also solve problems such as infinite series, large sums, and combinatorics. Now that you know the basic principles. If you want more practice, feel free to return to the initial challange, and if that is enough, try to answer the following problems I have included in the next section from Edwin E. Moise book on calculus </p>
+    </section>
+
+    <section>
+        <img src="practiceProblems.jpg" alt="PracticeProblems">
+    </section>
+
+    <section>
+        <h1>Contact Me</h1>
+        <a href="discordapp.com/users/468426891964055552">Discord : @Cardinal.69</a>
+        <a href=mailto:"nicolbobkuwala@gmail.com">Email : nicolbobkuwala@gmail.com</a>
+    </section>
+</body>
+</html>
