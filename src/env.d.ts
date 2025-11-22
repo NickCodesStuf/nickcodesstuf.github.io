@@ -1,12 +1,14 @@
 /// <reference types="astro/client" />
-/// <reference types="astro/content" />
 
-declare module 'astro:content' {
-  interface Render {
-    '.md': Promise<{
-      Content: import('astro').MarkdownInstance<Record<string, unknown>>['Content']
-      headings: import('astro').MarkdownHeading[]
-      remarkPluginFrontmatter: Record<string, unknown>
-    }>
-  }
+declare global {
+  const __SITE_CONFIG__: any;
+}
+
+interface ImportMetaEnv {
+  readonly GOOGLE_ANALYTICS_ID: string;
+  readonly API_KEY: string;
+}
+
+interface ImportMeta {
+  readonly env: ImportMetaEnv;
 }
