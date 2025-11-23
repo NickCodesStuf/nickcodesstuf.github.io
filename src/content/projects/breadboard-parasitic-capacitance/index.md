@@ -13,4 +13,7 @@ featured: false
 aliases:
   - measuring-the-parasitic-capacitance-of-a-breadboard
 ---
-Coming Soon
+High school project for IB Physics HL IA 
+
+> [!warning] This page is still under construction
+

@@ -4,11 +4,26 @@ description: ""
 date: 2025-11-22
 categories: []
 demoURL: ""
-status: ""
-image: https://media.discordapp.net/attachments/547286677559967764/1437272606683431044/Screenshot_20251109_204613_Gallery.jpg?ex=69231eac&is=6921cd2c&hm=66501c0584e0ac8f19a76dcbcedaa7279cb450f49d9b55d93d8fd765dd71e57d&=&format=webp&width=843&height=1498
+status: In progress
+image: rollcontrolsubscale-1.png
 imageAlt: ""
 hideCoverImage: false
 hideTOC: false
 noIndex: false
 featured: true
 ---
+Roll Control system for IREC 2026
+
+> [!warning] This page is still under construction
+
+
+![](rollactuator.mp4)
+Flight 1
+![https://youtu.be/FKQ_3H44X8A](https://youtu.be/FKQ_3H44X8A "https://youtu.be/FKQ_3H44X8A")
+
+![](flight1.webp)
+
+Flight 2
+Camera died so only telemetry for flight 2 :((
+
+![](flight2.webp)

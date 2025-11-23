@@ -12,3 +12,13 @@ noIndex: false
 featured: false
 ---
 Wearable AI assistant
+
+> [!warning] This page is still under construction
+
+![](UI.png)
+
+![](electronics.webp)
+
+
+30 hours no sleep lol
+![](uta6win.webp)

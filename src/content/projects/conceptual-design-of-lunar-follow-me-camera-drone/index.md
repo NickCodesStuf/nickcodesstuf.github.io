@@ -13,7 +13,9 @@ featured: true
 aliases:
   - drone
 ---
-## Design Challange
+> [!warning] This page is still under construction
+
+
 As part of this years Nasa TSGC Design Challange we built a lunar follow me camera drone.
 
-Coming soon
+[TSGC Presentation](https://www.youtube.com/live/Ous2NCEdfos?si=umjJAxvHM_KCcOf5&t=11756)

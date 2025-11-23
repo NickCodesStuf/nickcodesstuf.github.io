@@ -12,4 +12,18 @@ hideTOC: false
 noIndex: false
 featured: false
 ---
-Coming soon
+My contributions to the Osirus and Aeronova launch vehicle
+
+> [!warning] This page is still under construction
+
+Payload I worked on 
+![](payload.webp)
+
+Launch Aeronova
+![https://youtu.be/teLsL9tTRbE](https://youtu.be/teLsL9tTRbE "https://youtu.be/teLsL9tTRbE")
+
+![](Aeronova%20launch.mp4)
+![](failure.webp)
+![](landingsite.webp)
+Launch Osiris
+![](osiris.webp)
