@@ -3,7 +3,7 @@
   "currentTemplate": "standard",
   "currentTheme": "oxygen",
   "customThemeFile": "custom",
-  "contentOrganization": "file-based",
+  "contentOrganization": "folder-based",
   "themeColors": {
     "mode": "simple",
     "simpleColors": {
@@ -12,10 +12,10 @@
     }
   },
   "siteInfo": {
-    "site": "https://astro-modular.netlify.app",
-    "title": "Astro Modular",
-    "description": "A flexible blog theme designed for Obsidian users.",
-    "author": "David V. Kimball",
+    "site": "https://https://nickcodesstuf.github.io/",
+    "title": "Nicks Website",
+    "description": "Welcome to my website!",
+    "author": "Nicholas Quillin",
     "language": "en",
     "faviconThemeAdaptive": true,
     "defaultOgImageAlt": "Astro Modular logo."
@@ -49,22 +49,14 @@
         "url": "/projects"
       },
       {
-        "title": "Docs",
-        "url": "/docs"
-      },
-      {
         "title": "About",
         "url": "/about"
-      },
-      {
-        "title": "GitHub",
-        "url": "https://github.com/davidvkimball/astro-modular"
       }
     ],
     "social": [
       {
-        "title": "X",
-        "url": "https://x.com/davidvkimball",
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/nicholas-quillin/",
         "icon": "x-twitter"
       },
       {
@@ -81,7 +73,7 @@
     "search": {
       "posts": true,
       "pages": false,
-      "projects": false,
+      "projects": true,
       "docs": false
     },
     "sections": {
@@ -166,7 +158,7 @@
     "hideScrollBar": false,
     "scrollToTop": true,
     "showSocialIconsInFooter": true,
-    "profilePicture": false,
+    "profilePicture": true,
     "comments": false,
     "featureButton": "mode",
     "showPostCardCoverImages": "featured-and-posts",
@@ -194,7 +186,7 @@
   },
   "optionalFeatures": {
     "profilePicture": {
-      "enabled": false,
+      "enabled": true,
       "image": "/profile.jpg",
       "alt": "Profile picture",
       "size": "md",
@@ -221,7 +213,7 @@
     }
   },
   "deployment": {
-    "platform": "netlify"
+    "platform": "github-pages"
   },
   "pluginConfig": {
     "obsidianSettings": {

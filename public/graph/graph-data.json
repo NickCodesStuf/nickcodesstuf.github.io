@@ -1,10 +1,18 @@
 {
-  "nodes": [],
+  "nodes": [
+    {
+      "id": "why-space-matters",
+      "type": "post",
+      "title": "Why Space Matters",
+      "slug": "why-space-matters",
+      "connections": 0
+    }
+  ],
   "connections": [],
   "metadata": {
-    "totalPosts": 0,
+    "totalPosts": 1,
     "totalConnections": 0,
     "maxNodesApplied": false,
-    "originalNodeCount": 0
+    "originalNodeCount": 1
   }
 }

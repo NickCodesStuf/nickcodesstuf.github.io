@@ -176,20 +176,14 @@
   force = true
 
 [[redirects]]
-  from = "/docs/api-reference"
-  to = "/docs/api"
+  from = "/projects/measuring-the-parasitic-capacitance-of-a-breadboard"
+  to = "/projects/breadboard-parasitic-capacitance"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/astro-modular-configuration"
-  to = "/docs/configuration"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/docs/sourcetree-and-git"
-  to = "/docs/sourcetree-and-git-setup"
+  from = "/projects/drone"
+  to = "/projects/conceptual-design-of-lunar-follow-me-camera-drone"
   status = 301
   force = true
 

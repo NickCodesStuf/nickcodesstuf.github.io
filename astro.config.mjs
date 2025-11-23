@@ -40,9 +40,8 @@ export default defineConfig({
   '/contact-me': '/contact',
   '/contact-us': '/contact',
   '/privacy': '/privacy-policy',
-  '/docs/api-reference': '/docs/api',
-  '/docs/astro-modular-configuration': '/docs/configuration',
-  '/docs/sourcetree-and-git': '/docs/sourcetree-and-git-setup'
+  '/projects/measuring-the-parasitic-capacitance-of-a-breadboard': '/projects/breadboard-parasitic-capacitance',
+  '/projects/drone': '/projects/conceptual-design-of-lunar-follow-me-camera-drone'
 } : {},
 image: {
     service: {

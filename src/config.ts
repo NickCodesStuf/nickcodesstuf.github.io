@@ -180,11 +180,11 @@ export interface SiteConfig {
 export const siteConfig: SiteConfig = {
   // Site Information
   // [CONFIG:SITE_URL]
-  site: "https://nickcodesstuf.github.io", // Your full site URL, e.g., "https://yourdomain.com"
+  site: "https://https://nickcodesstuf.github.io/", // Your full site URL, e.g., "https://yourdomain.com"
   // [CONFIG:SITE_TITLE]
-  title: "Nicks Blog",
+  title: "Nicks Website",
   // [CONFIG:SITE_DESCRIPTION]
-  description: "Hello World.",
+  description: "Welcome to my website!",
   // [CONFIG:SITE_AUTHOR]
   author: "Nicholas Quillin",
   // [CONFIG:SITE_LANGUAGE]
@@ -258,7 +258,7 @@ export const siteConfig: SiteConfig = {
       // [CONFIG:COMMAND_PALETTE_SEARCH_PAGES]
       pages: false,
       // [CONFIG:COMMAND_PALETTE_SEARCH_PROJECTS]
-      projects: false,
+      projects: true,
       // [CONFIG:COMMAND_PALETTE_SEARCH_DOCS]
       docs: false,
     },
@@ -285,7 +285,7 @@ export const siteConfig: SiteConfig = {
   // Profile Picture
   profilePicture: {
     // [CONFIG:PROFILE_PICTURE_ENABLED]
-    enabled: false, 
+    enabled: true, 
     // [CONFIG:PROFILE_PICTURE_IMAGE]
     image: "/profile.jpg", // Path to your profile image (place in public/ directory)
     // [CONFIG:PROFILE_PICTURE_ALT]
@@ -323,7 +323,7 @@ export const siteConfig: SiteConfig = {
       },
       {
         title: "GitHub",
-        url: "https://github.com/nickcodesstuf",
+        url: "https://github.com/davidvkimball",
         icon: "github",
       },
     ],
@@ -351,17 +351,17 @@ export const siteConfig: SiteConfig = {
       // [CONFIG:HOME_OPTIONS_RECENT_POSTS_ENABLED]
       enabled: true, // Show recent posts on homepage
       // [CONFIG:HOME_OPTIONS_RECENT_POSTS_COUNT]
-      count: 7, // Number of recent posts to show
+      count: 4, // Number of recent posts to show
     },
     projects: {
       // [CONFIG:HOME_OPTIONS_PROJECTS_ENABLED]
       enabled: true, // Show featured projects on homepage
       // [CONFIG:HOME_OPTIONS_PROJECTS_COUNT]
-      count: 2, // Number of projects to show
+      count: 4, // Number of projects to show
     },
     docs: {
       // [CONFIG:HOME_OPTIONS_DOCS_ENABLED]
-      enabled: true, // Show featured docs on homepage
+      enabled: false, // Show featured docs on homepage
       // [CONFIG:HOME_OPTIONS_DOCS_COUNT]
       count: 3, // Number of docs to show
     },

@@ -35,6 +35,10 @@
       "plugin-obsidian-git;2": {
         "position": 6,
         "visible": true
+      },
+      "plugin-obsidian-git-obsidian-git-statusbar-idle-obsidian-git-statusbar-status-obsidian-git-statusbar-pull;1": {
+        "position": 9,
+        "visible": true
       }
     }
   },
