@@ -9,7 +9,7 @@ imageOG: false
 hideCoverImage: false
 hideTOC: false
 targetKeyword: ""
-draft: true
+draft: false
 ---
 ## Background
 It is common notion that space is an esotaric field. Most people do not understand why we do the things we do or the point of exploring. I would like to change that by explaining the reason why we continue to explore space
