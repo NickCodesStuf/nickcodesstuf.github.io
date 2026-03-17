@@ -258,7 +258,7 @@ export const siteConfig: SiteConfig = {
       // [CONFIG:COMMAND_PALETTE_SEARCH_PAGES]
       pages: false,
       // [CONFIG:COMMAND_PALETTE_SEARCH_PROJECTS]
-      projects: true,
+      projects: false,
       // [CONFIG:COMMAND_PALETTE_SEARCH_DOCS]
       docs: false,
     },
@@ -312,18 +312,18 @@ export const siteConfig: SiteConfig = {
     pages: [
       { title: "Posts", url: "/posts" },
       { title: "Projects", url: "/projects" },
-      { title: "About", url: "/about" },
+      { title: "About", url: "/about" }
     ],
     // [CONFIG:NAVIGATION_SOCIAL]
     social: [
       {
         title: "LinkedIn",
         url: "https://www.linkedin.com/in/nicholas-quillin/",
-        icon: "linkedin",
+        icon: "x-twitter",
       },
       {
         title: "GitHub",
-        url: "https://github.com/davidvkimball",
+        url: "https://github.com/nickcodesstuf",
         icon: "github",
       },
     ],
@@ -334,7 +334,7 @@ export const siteConfig: SiteConfig = {
     // [CONFIG:OPTIONAL_CONTENT_TYPES_PROJECTS]
     projects: true, // Enable projects section
     // [CONFIG:OPTIONAL_CONTENT_TYPES_DOCS]
-    docs: false, // Enable documentation section
+    docs: true, // Enable documentation section
   },
 
   // Home Options
@@ -351,17 +351,17 @@ export const siteConfig: SiteConfig = {
       // [CONFIG:HOME_OPTIONS_RECENT_POSTS_ENABLED]
       enabled: true, // Show recent posts on homepage
       // [CONFIG:HOME_OPTIONS_RECENT_POSTS_COUNT]
-      count: 4, // Number of recent posts to show
+      count: 7, // Number of recent posts to show
     },
     projects: {
       // [CONFIG:HOME_OPTIONS_PROJECTS_ENABLED]
       enabled: true, // Show featured projects on homepage
       // [CONFIG:HOME_OPTIONS_PROJECTS_COUNT]
-      count: 4, // Number of projects to show
+      count: 2, // Number of projects to show
     },
     docs: {
       // [CONFIG:HOME_OPTIONS_DOCS_ENABLED]
-      enabled: false, // Show featured docs on homepage
+      enabled: true, // Show featured docs on homepage
       // [CONFIG:HOME_OPTIONS_DOCS_COUNT]
       count: 3, // Number of docs to show
     },

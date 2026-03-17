@@ -736,3 +736,6 @@
 	font-weight: bold;
 	margin-top: 4px;
 }
+
+
+/* Scoped to only this plugin's settings container to avoid affecting other plugins */

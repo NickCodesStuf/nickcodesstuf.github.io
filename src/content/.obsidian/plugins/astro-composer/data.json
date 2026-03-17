@@ -1,31 +1,19 @@
 {
-  "enableUnderscorePrefix": false,
   "defaultTemplate": "---\ntitle: \"{{title}}\"\ndate: {{date}}\ndescription: \"\"\ntags: []\nimage: \"\"\nimageAlt: \"\"\nimageOG: false\nhideCoverImage: false\nhideTOC: false\ntargetKeyword: \"\"\ndraft: true\n---",
-  "postsFolder": "posts",
-  "postsLinkBasePath": "/posts/",
-  "automatePostCreation": true,
   "autoInsertProperties": true,
-  "creationMode": "folder",
-  "indexFileName": "index",
   "dateFormat": "YYYY-MM-DD",
-  "excludedDirectories": "special",
-  "onlyAutomateInPostsFolder": false,
-  "enablePages": true,
-  "pagesFolder": "pages",
-  "pagesLinkBasePath": "",
-  "pagesCreationMode": "file",
-  "pagesIndexFileName": "",
-  "pageTemplate": "---\ntitle: \"{{title}}\"\ndescription: \"\"\nnoIndex: false\nhideTOC: false\ndraft: true\n---\n",
   "enableCopyHeadingLink": true,
   "copyHeadingLinkFormat": "obsidian",
   "addTrailingSlashToLinks": true,
   "enableOpenTerminalCommand": true,
   "terminalProjectRootPath": "../..",
+  "terminalApplicationName": "",
+  "enableTerminalDebugLogging": false,
   "enableTerminalRibbonIcon": true,
   "enableOpenConfigFileCommand": false,
   "configFilePath": "../config.ts",
   "enableConfigRibbonIcon": false,
-  "customContentTypes": [
+  "contentTypes": [
     {
       "id": "custom-1758090445018",
       "name": "Projects",
@@ -43,10 +31,45 @@
       "enabled": true,
       "linkBasePath": "/docs/",
       "creationMode": "file"
+    },
+    {
+      "id": "posts-1767833244487",
+      "name": "Posts",
+      "folder": "posts",
+      "linkBasePath": "/posts/",
+      "template": "---\ntitle: \"{{title}}\"\ndate: {{date}}\ndescription: \"\"\ntags: []\nimage: \"\"\nimageAlt: \"\"\nimageOG: false\nhideCoverImage: false\nhideTOC: false\ntargetKeyword: \"\"\ndraft: true\n---",
+      "enabled": true,
+      "creationMode": "folder",
+      "indexFileName": "index",
+      "ignoreSubfolders": false,
+      "enableUnderscorePrefix": false,
+      "useMdxExtension": false
+    },
+    {
+      "id": "pages-1767833244487",
+      "name": "Pages",
+      "folder": "pages",
+      "linkBasePath": "",
+      "template": "---\ntitle: \"{{title}}\"\ndescription: \"\"\nnoIndex: false\nhideTOC: false\ndraft: true\n---\n",
+      "enabled": true,
+      "creationMode": "file",
+      "indexFileName": "",
+      "ignoreSubfolders": false,
+      "enableUnderscorePrefix": false,
+      "useMdxExtension": false
     }
   ],
-  "linkBasePath": "/posts/",
-  "enableAutoRename": true,
-  "enableAutoInsertFrontmatter": true,
-  "draftStyle": "filename"
+  "migrationCompleted": true,
+  "helpButtonReplacement": {
+    "enabled": false,
+    "commandId": "edit-astro-config",
+    "iconId": "wrench"
+  },
+  "showMdxFilesInExplorer": false,
+  "processBackgroundFileChanges": true,
+  "syncDraftDate": false,
+  "draftProperty": "",
+  "draftLogic": "true-is-draft",
+  "publishDateField": "",
+  "renameOnTitleClick": false
 }

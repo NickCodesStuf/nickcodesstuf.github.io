@@ -16,14 +16,13 @@ Many believe space exploration is esoteric field, which is quite the shame. Due 
 ![Nasa Budget](https://i0.wp.com/spacenews.com/wp-content/uploads/2025/06/image.png?ssl=1)
 Nasa Budget
 
-Furthermore, with the meteoric rise of private launch providers like spaceX and blue Origin, some people are even beginning to believe these companies should replace Nasa altogether. In my opinion not only is this argument flawed, but in some part our overreliance on the private sector has already jeopardized the Artemis mission and endangered our commanding lead in outer space (which is a discussion for another day). Nevertheless, one way or another, I believe that space is being devalued. Many of us got into spaceflight because it is awesome and the tendency to want to explore the unknown.  However this is not the only reason to go to space, and if we do not convince the public otherwise not only will we all be out of a job, but also we will be doing an gross disservice to future generations.
+Furthermore, with the meteoric rise of private launch providers like spaceX and blue Origin, some people are even beginning to believe these companies should replace Nasa altogether. In my opinion not only is this argument flawed, but in some part our overreliance on the private sector has already jeopardized the Artemis mission and endangered our commanding lead in outer space (which is a discussion for another day). Nevertheless, one way or another, I believe that space is being devalued. Many of us got into spaceflight because it is awesome and the tendency to want to explore the unknown.  However this is not the only reason to go to space, and if we do not convince the public otherwise not only will we soon all be out of a job we love, but also we will be doing an gross disservice to future generations.
 ## Science
 A common misconception is that science is or is nearly complete. This idea is nothing new either.
 
 >[!quote]
 >In this field, almost everything is already discovered, and all that remains is to fill a few unimportant holes.
 >Philipp von Jolly, 1878
-
 
 
 These days many people still mistake science for truth. The oxymoron "trust the science" has become equally a means of addressing pseudoscience and shutting down critical thinking alike.  In reality we do not know if modern science is in fact the truth, but rather we have simply been yet to disprove it. There is no such thing as a theory of everything and we have no clue how close or how far we are from understanding this world. 

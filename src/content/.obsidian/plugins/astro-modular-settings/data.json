@@ -61,7 +61,7 @@
       },
       {
         "title": "GitHub",
-        "url": "https://github.com/davidvkimball",
+        "url": "https://github.com/nickcodesstuf",
         "icon": "github"
       }
     ]
@@ -149,7 +149,6 @@
   },
   "features": {
     "commandPalette": true,
-    "tableOfContents": true,
     "readingTime": true,
     "linkedMentions": true,
     "linkedMentionsCompact": false,
@@ -236,10 +235,10 @@
   "availableThemes": "default",
   "customThemes": "",
   "customThemeGenerationEnabled": false,
+  "removeRibbonIcon": false,
   "helpButtonReplacement": {
     "enabled": true,
     "commandId": "astro-modular-settings:open-settings",
     "iconId": "lucide-wrench"
-  },
-  "removeRibbonIcon": false
+  }
 }

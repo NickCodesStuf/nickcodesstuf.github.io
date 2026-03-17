@@ -35,7 +35,7 @@ properties:
   note.draft:
     displayName: Draft
 views:
-  - type: bases-cms
+  - type: cms
     name: Posts
     filters:
       and:
@@ -64,7 +64,7 @@ views:
     cardSize: 250
     imageAspectRatio: 0.55
     maxTagsToShow: 2
-  - type: bases-cms
+  - type: cms
     name: Pages
     filters:
       and:
@@ -93,7 +93,7 @@ views:
     cardSize: 250
     imageAspectRatio: 0.55
     maxTagsToShow: 2
-  - type: bases-cms
+  - type: cms
     name: Projects
     filters:
       and:
@@ -122,7 +122,7 @@ views:
     cardSize: 250
     imageAspectRatio: 0.55
     maxTagsToShow: 2
-  - type: bases-cms
+  - type: cms
     name: Documentation
     filters:
       and:
@@ -155,7 +155,7 @@ views:
     imageAspectRatio: 0.55
     maxTagsToShow: 2
     propertyDisplay2: note.version
-  - type: bases-cms
+  - type: cms
     name: Special Pages
     filters:
       and:
@@ -184,7 +184,7 @@ views:
     imageAspectRatio: 0.55
     maxTagsToShow: 2
     hideQuickEditIcon: true
-  - type: bases-cms
+  - type: cms
     name: All Content
     groupBy:
       property: formula.Content Folder

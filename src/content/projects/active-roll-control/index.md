@@ -27,3 +27,7 @@ Flight 2
 Camera died so only telemetry for flight 2 :((
 
 ![](flight2.webp)
+Flight 3 & 4
+![](https://www.youtube.com/watch?v=vLHCv4MuPaE)
+
+Flight 5![](8mb.video-CVv-MwNfvtDA.mp4)
